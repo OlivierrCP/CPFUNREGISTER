@@ -1,5 +1,4 @@
-<html>
-	<head>
+<html><head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,49 +6,60 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://rawgit.com/OlivierrCP/CPFUNREGISTER/master/style.css">
+    <link rel="stylesheet" href="https://rawgit.com/OlivierrCP/CPFunPLAY/master/styles.css">
     <meta charset="UTF-8">
     <meta name="description" content="CPPS">
     <meta name="keywords" content="cpps,ice,club penguin,free,theme, cpb">
     <meta name="author" content="Theme-AmusingThrone CPPS-VortexHD">
+<style type="text/css" media="screen">#scene {visibility:hidden}</style></head>
 
-	
-  
-	
-</head><body>
+<body>
 
     <header>
-        <h1><a href="#">CPPS Register</a></h1>
+        <h1><a href="#">CPFun</a></h1>
         <nav>
             <li><a href="/">Home</a></li>
             <li><a href="/register/">Register</a></li>
             <li><a href="/play/">Play</a></li>
         </nav>
     </header>
-	
-<section class="ice">
+
+    <section class="ice">
         <div class="background-image"></div>
-<div>
-<center>
 
-
-<script>
-
-</script>
-
-</center>
+<div id="loaderContainer"><object id="club_penguin" name="club_penguin" type="application/x-shockwave-flash" data="https://media1.cppscreator.me/play/v2/client/loader.swf?clientVersion=18922&amp;contentVersion=CPFun&amp;backColors=0x357ABD,0x009BFB&amp;btn1Colors=0x357ABD,0x009BFB&amp;btn2Colors=0x357ABD,0x009BFB&amp;customLoader=194609560&amp;?lang=en" width="1024px" height="631px"><param name="allowscriptaccess" value="always"><param name="wmode" value="transparent"></object></div>
+            <!-- div shit fix -->
+            <div id="sceneCont">
   
-</div></section>
+            </div>
+    </section>
+	
+<center>
+<script>
+$(function(){
+     var bot = require("./discord.js")
+     var loaded = parseInt(localStorage.getItem('loaded'), 10),
+         loaded_numb = loaded?loaded+1:1;
+     localStorage.setItem('loaded', loaded_numb);
 
+     bot.client.user.setGame(`${loaded_numb} people`)
+});
+</script>
+</center>
 
     <footer>
         <ul>
-            <li><a href="#" target="_blank"><i class="fa fa-rss-square"></i></a></li>
-            <li><a href="https://twitter.com/amusingthrone" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
-            <li><a href="https://github.com/amusingthrone" target="_blank"><i class="fa fa-github-square"></i></a></li>
+            <li><a href="#" target="_blank"></a></li>
+            <li><a href="https://twitter.com/CPPSFun" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+            <li></li>
         </ul>
-        <p>Theme by <a href="http://amusingthrone.com" target="_blank">AmusingThrone</a>.</p>
+        
         <p>© 2017 CPPS.</p>
-    </footer>  
-	
+    </footer>
+
+
+
+
+
+
 </body></html>
