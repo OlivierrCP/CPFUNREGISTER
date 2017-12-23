@@ -8,7 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://rawgit.com/OlivierrCP/CPFUNREGISTER/master/style.css">
     <script src="https://www.google.com/recaptcha/api.js"></script>
     <meta charset="UTF-8">
     <meta name="description" content="The best theme for CPPS, ICE. Built by AmusingThrone">
