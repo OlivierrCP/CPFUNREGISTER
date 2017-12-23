@@ -27,7 +27,41 @@
     <section class="ice">
         <div class="background-image"></div>
 
-<div id="loaderContainer"><object id="club_penguin" name="club_penguin" type="application/x-shockwave-flash" data="https://media1.cppscreator.me/play/v2/client/loader.swf?clientVersion=18922&amp;contentVersion=CPFun&amp;backColors=0x357ABD,0x009BFB&amp;btn1Colors=0x357ABD,0x009BFB&amp;btn2Colors=0x357ABD,0x009BFB&amp;customLoader=194609560&amp;?lang=en" width="1024px" height="631px"><param name="allowscriptaccess" value="always"><param name="wmode" value="transparent"></object></div>
+<div class="register-box">
+			<div class="register-logo">
+			<a href="index.html"><b>CPFun</b></a>
+			</div>
+		<div class="register-box-body">
+			<form action="#" method="post">
+				<div class="alert alert-info" style="display: none;"><strong>Registering your penguin...</strong></div>
+				<div class="alert alert-success" style="display: none;"><a href="#" class="close" data-dismiss="alert" aria-label="close">×</a><strong>Success!</strong> </div>
+				<div class="alert alert-danger" style="display: none;"><a href="#" class="close" data-dismiss="alert" aria-label="close">×</a><strong>Success!</strong> </div>
+				<div class="form-group has-feedback">
+					<input type="text" id="username" name="username" class="form-control" placeholder="Username">
+					<span class="glyphicon glyphicon-user form-control-feedback"></span>
+				</div>
+				<div class="form-group has-feedback">
+					<input type="email" id="email" name="email" class="form-control" placeholder="Email">
+					<span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+				</div>
+				<div class="form-group has-feedback">
+					<input type="password" id="password" name="password" class="form-control" placeholder="Password">
+					<span class="glyphicon glyphicon-lock form-control-feedback"></span>
+				</div>
+				<div class="form-group has-feedback">
+					<input type="password" id="cpassword" name="cpassword" class="form-control" placeholder="Retype password">
+					<span class="glyphicon glyphicon-log-in form-control-feedback"></span>
+				</div>
+				<div class="form-group has-feedback">
+					<div class="g-recaptcha" data-sitekey="6LdjXyMTAAAAAKBZmp5Om6UsnlfmSUb1KoD6UIH1"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?k=6LdjXyMTAAAAAKBZmp5Om6UsnlfmSUb1KoD6UIH1&amp;co=aHR0cHM6Ly9jcHBzY3JlYXRvci5tZTo0NDM.&amp;hl=nl&amp;v=r20171212152908&amp;size=normal&amp;cb=h2kynu3dk9rs" width="304" height="78" role="presentation" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; "></textarea></div></div>
+				</div>
+				<div class="form-group has-feedback">
+					<button type="submit" id="submit" class="btn btn-primary btn-block btn-flat">Register</button>
+				</div>
+			</form>
+			<div class="form-group has-feedback" style="text-align:center;"></div>
+		</div>
+	</div>
             <!-- div shit fix -->
             <div id="sceneCont">
   
@@ -56,6 +90,7 @@ $(function(){
         
         <p>© 2017 CPPS.</p>
     </footer>
+
 
 
 
